@@ -1,0 +1,16 @@
+input_file: data/ours/gbv_cs.tsv
+output_dir: outputs/bert
+
+model_name: bert-base-uncased 
+device: cpu #cuda
+
+params:
+ num_train_epochs: 5
+ learning_rate: 2e-5
+
+task: classify_bert
+text_columns: ['counterspeech'] # gbv_text 
+label: ['cs_strategy'] #, 'gbv_target'
+num_labels: 8
+random_state: 32
+max_seq_length: 512

@@ -1,0 +1,14 @@
+input_file: data/gbv_cs.tsv
+reward_dataset: data/gbv_cs_feedback.tsv
+output_folder: data/preference_data
+
+model_name: unsloth/Llama-3.2-3B-Instruct
+max_length: 1024
+
+use_unsloth: True
+use_instruct: True
+device: cuda
+TEST_SIZE: 0.2
+chat_template: llama-32 
+
+label: ['counterspeech']

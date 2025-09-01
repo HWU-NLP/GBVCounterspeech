@@ -1,0 +1,14 @@
+input_file: outputs/result/result
+output_file: outputs/metric/metrics
+multi_file: True
+
+dataset_file: data/ours/gbv_cs.tsv
+
+strategy_label: ['cs_strategy'] 
+form_label: ['gbv_form'] 
+target_label: ['gbv_target'] 
+
+strategy_model_path: outputs/classifier/strategy-classifier
+form_model_path: outputs/classifier/gbv_form_extended
+
+model_name: bert-base-uncased
