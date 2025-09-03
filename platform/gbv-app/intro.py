@@ -23,7 +23,7 @@ st.markdown("""
 1. Read the annotation guidelines carefully by clicking **Task Guideline** in the sidebar to go to the task guideline page.
 2. Move to the annotation task page by clicking **Start Annotation Task** in the sidebar.  
 2. Complete the **qualification test** to qualify. You **must pass the test** before moving on to the formal annotation task.  
-3. After passing the qualification test and when data samples are assigned to you, start annotating by completing the three subtasks and providing your feedback.  
+3. After passing the qualification test and when data samples are assigned to you, start annotating by completing the two subtasks and providing your feedback.  
 """)
 
 

@@ -46,7 +46,7 @@ def give_consent():
     st.markdown(":red[**WARNING** – this research exposes participants to offensive language – which includes hate speech or hateful language that may target people with disabilities, individuals of Jewish or Muslim faith, women, individuals who identify as LGBT+, people of colour, immigrants, and others – which may cause mental or physical stress to the reader. Please consider this before participating, you are under no obligation to take part and if you choose not to, we thank you for considering taking part. Please do remember that you can withdraw from participating at any time.]")
     
     st.markdown("🔹 **Has this research been approved?**")
-    st.markdown("Yes. The project has been approved by the our institution School of Mathematics and Computer Science ethics committee.") 
+    st.markdown("Yes. The project has been approved by the our institution ethics committee.") 
     
     st.markdown("🔹 **What is the purpose of this research?**")
     st.markdown("To research what strategies and targets are employed in countering online gender-based violence (GBV), and which are most effective for responding to gender-based abusive language. This research aims to help build and employ AI systems such as large language models that can better learn the relationship between structured gender-based hateful language and its counterspeech, and generate more effective counterspeech responses to mitigate the impact of GBV and foster more positive online interactions.")

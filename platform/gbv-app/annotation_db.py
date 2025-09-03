@@ -36,7 +36,7 @@ NO_DATA_CODE = "CPS95BSW"
 NO_DATA_URL = "https://app.prolific.com/submissions/complete?cc=CPS95BSW"
 
 # Create the SQLite engine and session
-DATABASE_URL = f"sqlite:///gbv_anno.db"  # TODO: rename it based on annotation round e.g. pilot_db
+DATABASE_URL = "sqlite:///gbv_anno.db"  # TODO: rename it based on annotation round e.g. pilot_db
 engine = create_engine(DATABASE_URL, echo=True)
 SessionLocal = sessionmaker(bind=engine)
 
@@ -497,7 +497,7 @@ def main():
             
             st.subheader("Section 2 - Annotation Practice")
             s2_score = 0
-            s2_total = len(annotation_samples) * 3  # Each sample has 3 sub-tasks (strategy + target)
+            s2_total = len(annotation_samples) * 2
             
             def check_answers_from_highlighter(gbv, selected_text, correct_answer):
                 """
